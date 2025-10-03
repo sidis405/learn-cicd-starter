@@ -24,7 +24,7 @@ func TestGetAPIKey(t *testing.T) {
 					},
 				},
 			},
-			want:    "someKeyWRONG",
+			want:    "someKey",
 			wantErr: false,
 		},
 	}
